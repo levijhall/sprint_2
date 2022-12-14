@@ -1,0 +1,6 @@
+[ElephantSQL]
+DB_NAME = postgres server
+USER = User
+PWD = Password
+HOST = name.db.elephantsql.com
+PORT = 5432

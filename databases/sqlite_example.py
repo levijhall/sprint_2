@@ -19,7 +19,7 @@ def execute_q(conn, query):
 
 if __name__ == '__main__':
     conn = connect_to_db()
-    # print(execute_q(conn, q.SELECT_ALL)[:5])
+    # print(execute_q(conn, q.GET_CHARACTERS)[:5])
     results = execute_q(conn, q.AVG_ITEM_WEIGHT_PER_CHARACTER)
     df = pd.DataFrame(results)
     df.columns = ['name', 'average_item_weight']

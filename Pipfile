@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 pandas = "*"
+psycopg2 = "*"
+configparser = "*"
+seaborn = "*"
 
 [dev-packages]
 flake8 = "*"
